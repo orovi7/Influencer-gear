@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+/* nav section starts from  here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+    margin: 50px 100px 0 100px;
+}
+nav .nav-links ul{
+    display: flex;
+}
+nav .influencer-title h2{
+    color: #3A3A3A;
+}
+nav .nav-links ul li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+nav .nav-links ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/* nav section ends here */
+
+/* header content part starts from here */
+.influ-text{
+    margin: 50px 100px;
+    max-width: 500px;
+}
+.influ-text h1{
+    font-size: 50px;
+    color: #3A3A3A;
+    margin-bottom: 0;
+}
+.pre-button{
+    height: 40px;
+    width: 180px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+}
+.influencer-container{
+    display: flex;
+   
+}
+.cam-img{
+    padding: 0 0 0 300px;
+}
+.circle img{
+    height: 400px;
+}
+.camera img{
+    height: 320px;
+}
+.circle{
+    position: relative;
+}
+.camera{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.border{
+    height: 150px;
+    width: 80%;
+    margin: 100px 0 0 10%;
+    border-top: 1px solid rgba(192, 204, 218, 80%);
+   border-bottom: 1px solid rgba(192, 204, 218, 80%);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.border img{
+    height: 40px;
+}
+
+/* collection section start from here */
+
+.collection-container{
+   /* height: 200px; */
+   width: 80%;
+    margin: 50px 0 0 10%;
+    /* background-color: red; */
+}
+.collection-container h2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.coll1-container, .coll2-container, .coll3-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 0 0;
+   
+}
+.collection-card1, .collection-card2 , .collection-card3 {
+    height: 450px;
+    width: 350px;
+    /* border: 1px solid steelblue; */
+    padding: 20px 0 0 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.collection-card1 h3, .collection-card2 h3, .collection-card3 h3{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+}
+.collection-card1 h4, .collection-card2 h4, .collection-card3 h4{
+    font-size: 25px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+/* collection section ends here */
+
+/* feature section starts from here */
+
+.feature-container{
+    width: 80%;
+    margin: 50px 0 0 10%;
+    /* background-color: red; */
+    display: flex;
+    padding: 20px 20px 20px 20px;
+}
+.feature-text{
+    /* max-width: 500px; */
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.feature-text h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.feature-button{
+    height: 40px;
+    width: 150px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 500;
+   
+    border: none;
+}
+
+footer{
+    background-color: rgba(4, 30, 66, 100%);
+    padding-bottom: 50px;
+}
+footer h2{
+    color: white;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.insta{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.icons i{
+    font-size: 25px;
+    color: white;
+    
+}
